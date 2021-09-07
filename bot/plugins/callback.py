@@ -1603,8 +1603,7 @@ async def cb_about(bot, update: CallbackQuery):
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
     text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/DarlingAnil">Anil</a>\n"""
 
-    buttons = [
-        [
+    buttons = [[
             InlineKeyboardButton
                 (
                     "My Dev ⚡", url="https://t.me/DarlingAnil"
@@ -1620,8 +1619,7 @@ async def cb_about(bot, update: CallbackQuery):
                 (
                     "Close 🔐", callback_data="close"
                 )
-        ]
-    ]
+        ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
@@ -1637,7 +1635,7 @@ async def callback_data(bot, update: CallbackQuery):
     query_data = update.data
 
     if query_data == "start":
-        buttons = [
+        buttons = [[
             InlineKeyboardButton('Upto Telugu Movies', url='https://t.me/upto_telugu_movies'),
         ],[
             InlineKeyboardButton('Support 🛠', url='https://t.me/DarlingAnil')
