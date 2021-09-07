@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
-
 from pyrogram import Client, __version__
 
 from . import API_HASH, APP_ID, LOGGER, \
