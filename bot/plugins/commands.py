@@ -43,8 +43,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/DarlingAnil'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/Anilkumar-Bathala/Adv-Auto-Filter-Bot-V2.git')
+        InlineKeyboardButton('Developers', url='https://t.me/DarlingAnil')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/DarlingAnil')
     ],[
